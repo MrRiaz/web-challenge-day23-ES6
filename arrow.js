@@ -43,3 +43,19 @@ const extraWork = (num1, num2) => {
 }
 const result4 = extraWork(22, 20);
 console.log(result4);
+
+
+// find max number from array by arrow function method.
+const findMax = (arguments) => {
+    let max = arguments[0];
+    for (let i = 0; i < arguments.length; i++) {
+        const element = arguments[i];
+        if(element > max){
+            max = element;
+        }
+    }
+    return max;
+}
+
+const arguments = [200, 34, 1, 5, 3000, 45, 24];
+console.log(findMax(arguments));
