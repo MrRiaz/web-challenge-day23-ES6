@@ -39,7 +39,7 @@ const extraWork = (num1, num2) => {
     const sum = num1 + num2;
     const diff = num1 - num2;
     const total = sum * diff;
-    return total;                       //
+    return total;                       //multi work takle {} ar moddhe likte hoy.
 }
 const result4 = extraWork(22, 20);
 console.log(result4);
